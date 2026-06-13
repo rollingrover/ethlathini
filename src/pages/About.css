@@ -1,0 +1,13 @@
+.about-hero { background: var(--color-forest-mid); padding: var(--section-py) 0 3rem; }
+.about-hero h1 { font-family: var(--font-display); font-size: clamp(32px, 5vw, 56px); font-weight: 500; color: var(--color-cream); margin-top: 0.4rem; line-height: 1.15; }
+.about-hero h1 em { color: var(--color-marula); font-style: italic; }
+.about-body { padding: var(--section-py) 0; }
+.about-body__inner { display: grid; grid-template-columns: 1fr 320px; gap: 3rem; align-items: start; }
+@media (max-width: 800px) { .about-body__inner { grid-template-columns: 1fr; } }
+.about-text h2 { font-family: var(--font-display); font-size: 28px; font-weight: 500; color: var(--color-forest); margin-bottom: 1rem; }
+.about-text p { font-size: 15px; color: #4A2E10; line-height: 1.75; margin-bottom: 1.25rem; }
+.about-sidebar { display: flex; flex-direction: column; gap: 1rem; }
+.about-card { background: var(--color-cream-light); border: 1px solid rgba(196,145,90,0.25); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; }
+.about-card__label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--color-marula-dark); margin-bottom: 4px; }
+.about-card__val { font-family: var(--font-display); font-size: 28px; font-weight: 500; color: var(--color-forest); }
+.about-card__note { font-size: 12px; color: #6B4A2A; margin-top: 2px; }
