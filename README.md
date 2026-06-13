@@ -52,15 +52,3 @@ All colours, fonts and spacing live as CSS variables in `src/index.css`:
 | --font-display        | Cormorant Garamond | Headings |
 | --font-body           | Inter     | Body copy        |
 
-## TODO before launch
-
-- [ ] Fill in your actual phone number (search `+27000000000`)
-- [ ] Fill in your actual email (search `info@ethlathini.co.za`)
-- [ ] Fill in your GPS coordinates in FindUs.jsx
-- [ ] Update Google Maps embed in FindUs.jsx
-- [ ] Set real campsite rates (search `R [XX0]` and `R [XX]`)
-- [ ] Connect the booking form to your backend / email (Book.jsx `handleSubmit`)
-- [ ] Add real photography to hero sections
-- [ ] Register domain: ethlathini.co.za
-- [ ] Deploy to Netlify / Vercel (just drag the `dist/` folder after `npm run build`)
-"# ethlathini" 
